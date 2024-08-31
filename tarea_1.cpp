@@ -54,7 +54,7 @@ void quickSort(vector<string>& diccionario, int bajo, int alto) {
         int pi = particion(diccionario, bajo, alto);
         
         quickSort(diccionario, bajo, pi - 1);
-        quickSort(diccionario, pi + 1, alto);        
+        quickSort(diccionario, pi + 1, alto);      
     }
 }
 
